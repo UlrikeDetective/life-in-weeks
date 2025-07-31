@@ -1,0 +1,2 @@
+python3 -m venv dev_env
+source dev_env/bin/activate
