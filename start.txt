@@ -1,2 +1,17 @@
 python3 -m venv dev_env
 source dev_env/bin/activate
+
+ hugo server -D
+
+ Virtual environment masking PATH:
+ export PATH="/opt/homebrew/bin:$PATH"
+If you encounter an error stating that the command 'hugo' is not found, it may be due to the virtual environment masking the PATH variable.
+To resolve this, you can either run the command outside the virtual environment or adjust the PATH variable
+to include the directory where Hugo is installed.
+
+Reload your shell configuration to apply changes:
+source ~/.zshrc
+
+If you activated a Python virtual environment (source dev_env/bin/activate), 
+it may override your PATH. Try running hugo before activating the virtual 
+environment, or use the full path: /opt/homebrew/bin/hugo server -D
