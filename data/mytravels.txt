@@ -1,0 +1,10 @@
+#
+# The first event should be birth.
+# The date should match start_date in content/index.md.
+#
+
+"1983-08-10":
+    - headline: "🐣 I was born"
+      description: "I entered the world at around 11pm in Leipzig, East Germany. The next day, I had my first photoshoot as a sleeping beauty."
+      based: "Leipzig"
+      doing: "I'm not doing much yet, just being a baby."'"
